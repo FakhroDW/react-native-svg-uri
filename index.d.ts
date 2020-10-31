@@ -24,6 +24,10 @@ interface SvgUriProps {
      * e.g. source={{ur: 'my-path'}}
      */
     source?: ImageURISource
+    
+    style?: object
+    
+    stroke?: string
 
     /**
      * Direct svg code to render. Similar to inline svg
